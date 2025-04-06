@@ -12,7 +12,10 @@ A Node.js/Express backend for managing personal finances with income and expense
 - JWT authentication
 
 ## Installation
-1. Clone the repository
+1. Clone the repository:
+```bash
+git clone https://github.com/DhruvSeth09/Expense-Tracker.git
+```
 2. Install dependencies:
 ```bash
 npm install
@@ -20,8 +23,8 @@ npm install
 3. Create a `.env` file with the following variables:
 ```
 MONGO_URL=your_mongodb_connection_string
-PORT=5000
-CLIENT_URL=http://localhost:3000
+PORT=8080
+CLIENT_URL=""
 JWT_SECRET=your_jwt_secret_key
 ```
 
